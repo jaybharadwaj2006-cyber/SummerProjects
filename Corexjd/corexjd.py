@@ -5,7 +5,7 @@ from google.auth import api_key
 from pydantic_core.core_schema import none_schema
 
 #api config
-API_KEY = "AIzaSyC1E_b9fqimW_CIifDHgzkOq6cqv3OKU6w"
+API_KEY = ""
 client = genai.Client(api_key=API_KEY)
 
 
